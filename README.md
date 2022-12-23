@@ -8,3 +8,4 @@
 - git add .
 
 - git commit -m "message"
+- git commit -a -m "message"
