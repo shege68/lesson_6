@@ -9,3 +9,8 @@
 
 - git commit -m "message"
 - git commit -a -m "message"
+
+<!-- удаляємо попередній коміт -->
+- git reset --hard HEAD^
+
+
