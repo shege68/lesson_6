@@ -16,5 +16,7 @@
 - git restore filename
 <!-- відновлення всіх файлів з історії -->
 - git restore .
+<!-- log в короткому форматі -->
+- git log --pretty=format:"%h - %an, %ar - %s"
 
 
