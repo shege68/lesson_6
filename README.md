@@ -34,4 +34,8 @@
 <!-- створення нової гілки dev -->
 - git branch dev
 <!-- створення нової гілки dev та перехід на неї -->
-git checkout -b dev
+- git checkout -b dev
+<!-- злиття з гілкою -->
+- git merge branch-name
+<!-- відміна злиття гілок -->
+- git merge --abort
