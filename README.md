@@ -13,8 +13,10 @@
 - git commit -m "message"
 <!-- обʼєднання двух команд -->
 - git commit -a -m "message"
-<!-- удаляємо попередній коміт -->
-- git reset --hard HEAD^
+<!-- видаляємо попередній коміт -->
+- git reset --hard <id last commit>
+<!-- видаляє коміт з облака-->
+- git push --force
 <!-- відновлення файла з історії -->
 - git restore filename
 <!-- відновлення всіх файлів з історії -->
